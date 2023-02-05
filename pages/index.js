@@ -4,8 +4,8 @@ import Link from 'next/link';
 const Home = () => {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <Link href="/length">Go to Length Calculator</Link>
+      <h1>[Unit Converter]</h1>
+      <Link href="/length">Length Conversion</Link>
     </div>
   );
 };

@@ -19,23 +19,19 @@ const Length = () => {
     const performConversion = () => {
       switch (unit) {
         case 'meters':
-          setFeet(value * 3.2808);
-          setYards(value * 1.0936);
-		  setMeters(value * 1);
+          setMeters(value);
           break;
         case 'feet':
-          setFeet(value);
-          setYards(value / 3);
-		  setMeters(value / 3.2808);
+          setMeters(value * 0.3048);
           break;
         case 'yards':
-          setFeet(value * 3);
-          setYards(value);
-		  setMeters(value / 1.0936);
+		      setMeters(value*0.9144);
           break;
         default:
           break;
       }
+      setFeet();
+      setYards()
     };
     performConversion();
   }, [value, unit]);
