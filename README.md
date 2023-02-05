@@ -1,15 +1,16 @@
-# converter
+# Converter
 Converting from one unit to another
 
-## dev
-1. install node packages
-npm install
+## Setup and Run
 
-2. run the application
-npm run dev
+1. Install node packages
+    npm install
 
-3. build
-npm run build
+2. Run the application
+    npm run dev
 
-4. check
-npm start
+3. Build
+    npm run build
+
+4. Check
+    npm start
